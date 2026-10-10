@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Temporary and tool-generated files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
